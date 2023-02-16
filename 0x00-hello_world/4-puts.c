@@ -1,9 +1,14 @@
+/*
+ * File: 4-puts.c
+ * Auth: Maduabuchi Anamelechi
+ */
+
 #include <stdio.h>
 
 /**
- * Main: Entry point
+ * main: Entry point
  *
- * Description: This C program prints with the put function.
+ * Description: "\"Programming is like building a multilingual puzzle"
  *
  * Return: Always 0
  */
