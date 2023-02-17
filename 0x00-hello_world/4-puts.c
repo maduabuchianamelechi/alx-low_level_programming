@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 /**
- * main: Entry point
+ * main - Entry point
  *
  * Description: "\"Programming is like building a multilingual puzzle"
  *
