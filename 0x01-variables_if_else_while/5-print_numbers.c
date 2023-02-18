@@ -17,7 +17,7 @@ int main(void)
 		printf("%d", number);
 		number++;
 	}
-	printf('\n');
+	printf("\n");
 
 	return (0);
 }
