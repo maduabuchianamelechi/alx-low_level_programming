@@ -8,7 +8,7 @@
  * Description: print the value of a number:
  *              greater than, zero and is not less than 6
  *
- * Return: Always O
+ * Return: Always 0
 */
 
 int main(void)
