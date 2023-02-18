@@ -5,7 +5,8 @@
 /**
  * main - Entry point
  *
- * Description: This function says whether an  assigned random number is positive, zero, or negative
+ * Description: This function says whether an  assigned random
+ *		number is positive, zero, or negative
  *
  * Return: Always 0
  */
@@ -26,7 +27,9 @@ int main(void)
 		printf("%d is zero\n", n);
 	}
 	else
+	{
 		printf("%d is negative\n");
+	}
 
 	return (0);
 }
