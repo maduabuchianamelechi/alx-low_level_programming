@@ -10,23 +10,23 @@
 
 int main(void)
 {
-	char ch = "a";
-	char CH = "A";
+	char ch = 'a';
+	char CH = 'A';
 
 	/* Prints lowercase alphabets*/
-	while (ch <= "z")
+	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
 	}
 
 	/* Prints uppercase alphabets */
-	while (CH <= "Z")
+	while (CH <= 'Z')
 	{
 		putchar(CH);
 		CH++;
 	}
-	putchar('\n')
+	putchar('\n');
 
 	return (0);
 }
