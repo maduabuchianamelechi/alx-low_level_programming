@@ -4,7 +4,7 @@
  * main - The Entry point
  *
  * Description: This function prints _putchar using
- * 		the putchar prototype
+ *		the putchar prototype
  *
  * Return: Returns 0
  */
@@ -16,7 +16,6 @@ int main(void)
 
 	for (ch = 0; ch < 8; ch++)
 		_putchar(str[ch]);
-	
 	_putchar('\n');
 
 	return (0);
