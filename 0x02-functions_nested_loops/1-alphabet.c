@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_alphabets - Entry point
+ * print_alphabet - Entry point
  *
  * Description: Prints all the alphabets in lower case
  *
  * Return: Returns Nothing.
  */
 
-void print_alphabets(void)
+void print_alphabet(void)
 {
 	int ch;
 
