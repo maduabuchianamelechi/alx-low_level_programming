@@ -4,8 +4,6 @@
  * print_numbers - Entry point
  *
  * Description: Prints numbers 0 to 9
- * 
- * Return: Nothing
  */
 
 void print_numbers(void)
@@ -16,6 +14,4 @@ void print_numbers(void)
 		_putchar((num % 10) + '0');
 
 	_putchar('\n');
-
-	return (void);
 }
