@@ -9,7 +9,7 @@
  *		and 0 if not.
  */
 
-int _islower(char c)
+int _islower(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 		return (1);
