@@ -9,9 +9,10 @@
  *		and 0 if not.
  */
 
-int _islower(int c)
+int _isupper(int c)
 {
-	if (c >= 65 && c <= 90)
+	if (c >= 'A' && c <= 'Z')
 		return (1);
-	return(0);
+	else
+		return (0);
 }

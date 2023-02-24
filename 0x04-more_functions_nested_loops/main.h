@@ -1,4 +1,4 @@
 #include <stdio.h>
 
-int _islower(int c);
+int _isupper(int c);
 _putchar(char c);
