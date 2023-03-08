@@ -19,7 +19,7 @@ int _divisible(int num, int div)
 	if (div == num / 2)
 		return (1);
 
-	return (is_divisible(num, div + 1));
+	return (_divisible(num, div + 1));
 }
 
 /**
@@ -41,5 +41,5 @@ int is_prime_number(int n)
 	if (n >= 2 && n <= 3)
 		return (1);
 
-	return (is_divisible(n, div));
+	return (_divisible(n, div));
 }
