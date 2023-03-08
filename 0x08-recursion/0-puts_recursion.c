@@ -2,7 +2,7 @@
 
 /**
  * _puts_recursion - Prints recursion of characters
- * 
+ *
  * @s: A poiter to the start of the string
  */
 
@@ -15,6 +15,6 @@ void _puts_recursion(char *s)
 	else
 	{
 		_putchar(*s);
-		_puts_recursion(s + 1)
+		_puts_recursion(s + 1);
 	}
 }
