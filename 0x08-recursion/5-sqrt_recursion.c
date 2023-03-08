@@ -23,7 +23,7 @@ int _sqrt(int n, int r)
 	}
 	else
 	{
-		return (_sqrt(n, r - 1));
+		return (_sqrt(n, r + 1));
 	}
 }
 
