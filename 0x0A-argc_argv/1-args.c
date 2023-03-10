@@ -15,14 +15,9 @@ int main(int argc, char __attribute__((unused)) *argv[])
 	int i = 0;
 	int sum;
 
-	if (argc == 1)
+	while (i < argc)
 	{
-		sum = 0;
-	}
-
-	else if (i < argc)
-	{
-		sum += i;
+		sum = i;
 		i++;
 	}
 	printf("%d\n", sum);
