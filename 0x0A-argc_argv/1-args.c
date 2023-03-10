@@ -15,7 +15,12 @@ int main(int argc, char __attribute__((unused)) *argv[])
 	int i = 0;
 	int sum;
 
-	while (i < argc)
+	if (argc == 1)
+	{
+		sum = 1;
+	}
+
+	else if (i < argc)
 	{
 		sum += i;
 		i++;
