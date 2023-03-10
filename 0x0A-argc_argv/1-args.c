@@ -12,7 +12,15 @@
 
 int main(int argc, char __attribute__((unused)) *argv[])
 {
-	printf("%s\n", argc);
+	int i = 0;
+	int sum;
+
+	while (i < argc)
+	{
+		sum += i;
+		i++;
+	}
+	printf("%d\n", sum);
 
 	return (0);
 }
