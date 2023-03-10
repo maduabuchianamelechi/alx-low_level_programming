@@ -12,11 +12,9 @@
 
 int main(int argc, int *argv[])
 {
-	int i = 1;
-	int m = 2;
 	int result;
 
-	if (argc < m)
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
@@ -24,8 +22,8 @@ int main(int argc, int *argv[])
 
 	else
 	{
-		result = argv[i] * argv[m];
+		result = argv[1] * argv[2];
 		printf("%d\n", result);
-		return (0);
 	}
+	return (0);
 }
