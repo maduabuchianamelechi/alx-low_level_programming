@@ -10,7 +10,7 @@
  * Return: Returns 0 on success and 1 on error
  */
 
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
 	int result;
 
@@ -22,7 +22,7 @@ int main(int argc, int *argv[])
 
 	else
 	{
-		result = argv[1] * argv[2];
+		result = (atoi(argv[1]) * atoi(argv[2]));
 		printf("%d\n", result);
 	}
 	return (0);
